@@ -42,7 +42,7 @@ h1::after {
     white-space: pre;
     text-align: left;
     position: absolute;
-    inset: 182px auto auto 834px;
+    inset: 182px 20px auto auto;
     z-index: 3;
     background-color: rgba(255, 255, 255);
     border: 2px solid rgba(0, 0, 0, 1);
