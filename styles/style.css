@@ -5,6 +5,7 @@ body {
     min-width: 800px;
     margin: 0 auto;
     font-family: Raleway, "Arial", sans-serif;
+    justify-content: center;
 }
 
 body::before {
@@ -17,6 +18,7 @@ body::before {
 
 h1::after {
     content: '*';
+    font-size: 105px;
 }
 
 .title {
@@ -30,7 +32,7 @@ h1::after {
     width: 739px;
     height: 408px;
     margin-top: 60px;
-    margin-right: 431px;
+    /* margin-right: 431px; */
 }
 
 .title:hover {
@@ -55,6 +57,7 @@ h1::after {
     color: #000000;
     box-shadow: 0 14px 0 rgba(0, 0, 0, 1);
     padding: 36px 44px;
+    font-family: Raleway, "Arial", sans-serif;
 }
 
 video {
