@@ -23,30 +23,26 @@ h1::after {
 }
 
 .title {
-    /* position: absolute; */
     z-index: 2;
     font-weight: 800;
-    font-size: 116px;
+    font-size: 0;
     text-transform: uppercase;
-    letter-spacing: 0.035em;
     text-align: center;
     line-height: 136px;
-    /* width: 739px; */
-    /* min-height: 408px; */
     margin-top: 60px;
-    /* margin-right: 431px; */
 }
 
 .title_text {
     display: block;
+    font-size: 116px;
+    line-height: 136px;
+    letter-spacing: 0.035em;
 }
 
 .title_text_inline {
     display: inline-block;
-}
-
-.spacing-none {
-    letter-spacing: 0;
+    font-size: 116px;
+    letter-spacing: 0.035em;
 }
 
 .title:hover {
@@ -65,7 +61,7 @@ h1::after {
     border-radius: 20px;
     font-size: 35px;
     line-height: 35px;
-    letter-spacing: 1px;
+    letter-spacing: 0.1px;
     font-weight: 400;
     text-transform: none;
     color: #000000;
